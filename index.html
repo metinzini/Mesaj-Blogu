@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="Blog" content="Mesajlaşma blogu">
+  <title>Mesajlaşma blogu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Mesajlaşma Blogu</h1>
+  </header>
+  <ul>
+    <li><a href="#">Ana Sayfa</a></li>
+    <li><a href="#">Hakkında</a></li>
+    <li><a href="#">İletişim</a></li>
+  </ul>
+  <main>
+    <article>
+      <h2>Mesaj 1</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem ratione, reiciendis quam id maiores possimus
+        tempora. Magnam error aut inventore illum, commodi velit, nesciunt possimus amet maiores corporis itaque
+        excepturi.</p>
+    </article>
+    <article>
+      <h2>Mesaj 2</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae maxime nihil vero nam ullam, itaque sequi,
+        numquam sit dolores iure rerum dolor quisquam officia amet quos delectus quod commodi facilis!</p>
+    </article>
+  </main>
+  <footer>
+    <p>Tüm hakları saklıdır. &copy; 2023</p>
+  </footer>
+</body>
+
+<script>
+  function sendMessage() {
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var message = document.getElementById("message").value;
+
+    // Burada yapılacak olan, mesajın sunucuya gönderilmesi veya başka bir eylemin gerçekleştirilmesidir.
+    // Bu örnekte sadece konsola yazdırıyoruz.
+    console.log("Name: " + name);
+    console.log("Email: " + email);
+    console.log("Message: " + message);
+
+    // İletişim formunu sıfırla
+    document.getElementById("contactForm").reset();
+  }
+</script>
+
+</script>
+
+</html>
